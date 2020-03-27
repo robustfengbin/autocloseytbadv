@@ -1,16 +1,11 @@
 {
     "name": "youtube no advertisement",
     "version": "1.0",
-    "description": "Build an Extension!",
-    "permissions": ["declarativeContent","activeTab","storage","contextMenus"],
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": false
-    },
+    "description": "watch youtube free",
     "content_scripts": [
       {
         "matches": ["*://*.youtube.com/*"],
-        "js": ["js/youtube_control.js"]
+        "js": ["youtube_control.js"]
       }
     ],
     "manifest_version": 2
