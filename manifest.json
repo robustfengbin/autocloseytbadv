@@ -1,11 +1,11 @@
 {
-    "name": "youtube no advertisement",
+    "name": " no advertisement",
     "version": "1.0",
-    "description": "watch youtube free",
+    "description": "watch video free",
     "content_scripts": [
       {
         "matches": ["*://*.youtube.com/*"],
-        "js": ["youtube_control.js"]
+        "js": ["no_adv.js"]
       }
     ],
     "manifest_version": 2

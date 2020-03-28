@@ -10,5 +10,5 @@ function close_adv () {
         return
     }
     btns[0].click();
-    console.info('click ok')
+    console.info('auto click ok')
 }
